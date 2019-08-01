@@ -42,7 +42,7 @@ section {
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	width: 890px;
-	height: 500px;
+	height: 600px;
 	margin: auto;
 	padding: 30px 35px;
 }
@@ -125,6 +125,50 @@ div.about-me-txt p {
 div.about-me-txt ul {
 	padding: 15px 0 0 30px;
 	font-size: .9em
+}
+
+/* My Work Content / Portfolio */
+
+main {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+div.img-contain {
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	margin-bottom: 25px; 
+}
+
+main img {
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+}
+
+div.over-text1 {
+	position: absolute;
+	z-index:5;
+	bottom: 20px;
+	left: 0;
+	background:#4aaaa5;
+}
+
+div.over-text2 {
+	position: absolute;
+	z-index:5;
+	bottom: 20px;
+	left: 250px;
+	background:#4aaaa5;
+}
+
+main h2 {
+	width: 180px;
+	padding: 5px 10px;
+	text-align: center;
 }
 
 /* Contact Form */
