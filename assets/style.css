@@ -10,6 +10,7 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-size: 1.5em;
+	font-weight: bold;
 }
 
 p, li, a {
@@ -124,5 +125,34 @@ div.about-me-txt p {
 div.about-me-txt ul {
 	padding: 15px 0 0 30px;
 	font-size: .9em
+}
+
+/* Contact Form */
+
+form p {
+	margin: 10px 0 0 0;
+	padding-bottom: 3px;
+}
+
+form input, textarea {
+	width: 99%;
+	padding: 5px;
+}
+
+form textarea {
+	height: 150px;
+}
+
+form button {
+	background: #4aaaa5;
+	color: white;
+	padding: 5px 15px;
+	margin-top: 10px;
+	border: none;
+}
+
+form button:hover {
+	transform: scale(1.1);
+	background: #666666;
 }
 
